@@ -73,14 +73,14 @@
     background: rgba(11, 2, 35, 0.10);
 }
 
-.followUsBtn h5{
+.followUsBtn h5 {
     color: #3C354F;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
 }
 
-.followUsBtn h5:hover{
+.followUsBtn h5:hover {
     cursor: pointer;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -89,7 +89,65 @@
     overflow: hidden;
 }
 
-.followUsBtn i:hover{
+.followUsBtn i:hover {
     cursor: pointer;
     font-size: 20px;
+}
+
+/* Goat Section */
+
+.gotContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(/images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+
+.goatDescription {}
+
+.goatDescription h3 {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.goatDescription h1 {
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    margin-bottom: 19px;
+}
+
+.goatDescription p {
+    display: inline-block;
+    margin-bottom: 17px;
+    margin-left: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
+}
+
+.signinBtn {
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+.goRogueBtn{
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
