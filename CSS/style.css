@@ -104,8 +104,6 @@
     background-repeat: no-repeat;
 }
 
-.goatDescription {}
-
 .goatDescription h3 {
     font-size: 48px;
     font-weight: 600;
@@ -178,7 +176,7 @@
     margin-bottom: 32px;
 }
 
-.knowMoreBtn{
+.knowMoreBtn {
     padding: 21px 40px;
     border-radius: 48px;
     background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
@@ -190,15 +188,107 @@
     margin-bottom: 24px;
 }
 
-.gamerDescriptin h6{
+.gamerDescriptin h6 {
     color: #534C64;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-.gamerDescriptin h4{
+.gamerDescriptin h4 {
     color: #534C64;
     font-size: 32px;
     font-weight: 700;
+}
+
+/* Online games Funny Videos Section */
+
+.funnyVideoContainer h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+
+.funnyVideoContainer p {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+.funnyVideos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.video {
+    width: 342px;
+    height: 400px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#video1 {
+    background-image: url(/images/Rectangle\ 4.png);
+}
+
+#video2 {
+    background-image: url(/images/Rectangle\ 5.png);
+}
+
+#video3 {
+    background-image: url(/images/Rectangle\ 7.png);
+}
+
+#video4 {
+    background-image: url(/images/Rectangle\ 6.png);
+}
+
+.funnyVideoWatchNow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.funnyVideoWatchNow i {
+    font-size: 30px;
+}
+
+.funnyVideoWatchNow p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.funnyVideo p {
+    text-align: left;
+    margin-top: 24px;
+    max-width: 342px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.funnyVideoWatchNow {
+    visibility: hidden;
+}
+
+.video:hover {
+    cursor: pointer;
+    border: 5px solid #F948B2;
+  
+}
+
+.video:hover .funnyVideoWatchNow{
+    visibility: visible;
+    background-color: rgba(5, 5, 5, 0.7);
+    backdrop-filter: blur(10px);
+    transition: backdrop-filter 0.3s ease;
+    border-radius: 10px;
 }
