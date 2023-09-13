@@ -333,6 +333,7 @@
     align-items: center;
     justify-content: right;
     background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    margin-bottom: 120px;
 }
 
 .careerDescription h1 {
@@ -376,4 +377,28 @@
     font-weight: 600;
     color: #ff22a3;
     margin-top: 40px;
+}
+
+/* Games Section */
+
+.gamesSection{
+    display: grid;
+    grid-template-columns: repeat(5, 243px);
+    justify-content: center;
+    row-gap: 57px;
+    margin-bottom: 120px;
+}
+
+.gamesSection:nth-child(odd){
+    align-items: center;
+}
+
+.gamesName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gamesName h5{
+    margin-left: 15px;
 }
