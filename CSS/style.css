@@ -141,7 +141,7 @@
     margin-right: 24px;
 }
 
-.goRogueBtn{
+.goRogueBtn {
     padding: 21px 40px;
     border-radius: 48px;
     background: #4EC5F7;
@@ -150,4 +150,55 @@
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+/* We Are Gamer Section */
+
+.gamerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+.gamerDescriptin {
+    text-align: right;
+}
+
+.gamerDescriptin h3 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.gamerDescriptin p {
+    max-width: 520px;
+    font-size: 18px;
+    color: #534C64;
+    margin-bottom: 32px;
+}
+
+.knowMoreBtn{
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.gamerDescriptin h6{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.gamerDescriptin h4{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
 }
