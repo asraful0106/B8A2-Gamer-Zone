@@ -413,3 +413,68 @@
 .gamesName:hover h5{
     color: #ff22a3;
 }
+
+/* Footer Section */
+
+footer{
+    height: 636px;
+    background: #0B0223;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLogo{
+    display: flex;
+    margin-bottom: 63px;
+}
+
+.footerLogo h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.footerMiniNav{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 67px;
+}
+
+.footerMiniNav a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footerSocial {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 64px;
+}
+
+.footerSocial i{
+    font-size: 50px;
+}
+
+.footerTramCondition{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 28px;
+}
+
+.footerTramCondition a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
