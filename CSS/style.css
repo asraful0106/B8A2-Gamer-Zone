@@ -381,7 +381,7 @@
 
 /* Games Section */
 
-.gamesSection{
+.gamesSection {
     display: grid;
     grid-template-columns: repeat(5, 243px);
     justify-content: center;
@@ -389,16 +389,27 @@
     margin-bottom: 120px;
 }
 
-.gamesSection:nth-child(odd){
-    align-items: center;
+
+.gamesSection .item6 {
+    margin-left: 150px;
 }
 
-.gamesName{
+.gamesName {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    width: 243px;
+    border-radius: 50px;
 }
 
-.gamesName h5{
+.gamesName h5 {
     margin-left: 15px;
+}
+
+.gamesName:hover {
+    border: 1.5px solid var(--Linear, #FF42A5);
+}
+
+.gamesName:hover h5{
+    color: #ff22a3;
 }
